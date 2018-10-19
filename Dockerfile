@@ -1,5 +1,5 @@
-FROM        quay.io/prometheus/busybox:latest
-LABEL maintainer="The Prometheus Authors <prometheus-developers@googlegroups.com>"
+FROM        auroq/busybox:1.29.3-arm
+LABEL maintainer="Parker Johansen<johansen.parker@gmail.com>"
 
 COPY prometheus                             /bin/prometheus
 COPY promtool                               /bin/promtool
